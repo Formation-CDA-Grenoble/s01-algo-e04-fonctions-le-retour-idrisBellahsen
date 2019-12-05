@@ -1,12 +1,6 @@
 def rankInside(list, element):
     # Début de ton code
-    rank=0
-    for itemInside in list:
-        if itemInside == element:
-            return rank
-        rank=rank+1         
-
-    return None
+    return list.index(element)
     # Fin de ton code
 
 
