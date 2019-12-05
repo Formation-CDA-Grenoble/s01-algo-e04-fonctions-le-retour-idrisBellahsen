@@ -1,17 +1,6 @@
 def order(list):
     
-    n = len(list)
-    swap = True
-    
-    x = -1
-    while swap:
-        swap = False
-        x = x + 1
-        for i in range(1, n-x):
-            if list[i - 1] < list[i]:
-                list[i-1], list[i] = list[i], list[i-1]
-                swap = True
-  
+    list.sort()
     return list
     # Fin de ton code
 
