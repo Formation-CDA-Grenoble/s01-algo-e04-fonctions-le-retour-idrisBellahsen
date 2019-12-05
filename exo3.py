@@ -1,8 +1,7 @@
 def concatenate(list):
-    result=""
-    for item in list:
-        result=result+str(item)
-    return result    
+
+    return (str(elem) for elem in list) 
+    
     # Fin de ton code
 
 
