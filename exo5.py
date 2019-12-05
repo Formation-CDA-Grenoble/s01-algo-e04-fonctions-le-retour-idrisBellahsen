@@ -1,6 +1,10 @@
+
+
 def mix(list):
-    # Début de ton code
-    pass
+    from random import shuffle
+    shuffle(list)
+    
+    return list
     # Fin de ton code
 
 
