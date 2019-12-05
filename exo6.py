@@ -8,7 +8,7 @@ def order(list):
         swap = False
         x = x + 1
         for i in range(1, n-x):
-            if list[i - 1] > list[i]:
+            if list[i - 1] < list[i]:
                 list[i-1], list[i] = list[i], list[i-1]
                 swap = True
   
