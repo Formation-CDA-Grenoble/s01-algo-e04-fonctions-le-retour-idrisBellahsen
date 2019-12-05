@@ -1,6 +1,10 @@
 def rankInsideStr(string, character):
-    # Début de ton code
-    pass
+    rank=0
+    for letter in string:
+        if letter == character:
+            return rank
+        rank+=1
+    return None
     # Fin de ton code
 
 
