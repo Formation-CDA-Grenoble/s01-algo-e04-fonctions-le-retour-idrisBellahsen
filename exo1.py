@@ -1,11 +1,8 @@
 def isInside(list, element):
     
-    isPresent=False
-    for item in list:
-        if item == element:
-            isPresent=True
+  
+    return element in list
 
-    return isPresent
     # Fin de ton code
 
 
