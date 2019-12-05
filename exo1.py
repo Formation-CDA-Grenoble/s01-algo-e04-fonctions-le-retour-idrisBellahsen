@@ -1,8 +1,8 @@
 def isInside(list, element):
     
     isPresent=False
-    for item in element   
-        if item == element
+    for item in list:
+        if item == element:
             isPresent=True
 
     return isPresent
